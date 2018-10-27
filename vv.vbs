@@ -5,6 +5,7 @@ T = InputBox("How Many Times Needs It To Be Send?","WhatsApp DDos")
 If MsgBox("You've Filled It In Correctely", 1024 + vbSystemModal, "WhatsApp DDos") = vbOk Then
 
 ' Go To WhatsApp
+        
 Set WshShell = WScript.CreateObject("WScript.Shell")
 Return = WshShell.Run("https://web.whatsapp.com/", 1)
         
