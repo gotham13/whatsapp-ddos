@@ -8,7 +8,7 @@ If MsgBox("You've Filled It In Correctely", 1024 + vbSystemModal, "WhatsApp DDos
 Set WshShell = WScript.CreateObject("WScript.Shell")
 Return = WshShell.Run("https://web.whatsapp.com/", 1)
 
-    ' Loading Time 
+' Loading Time 
 
 If MsgBox("Is WhatsApp Loaded?" & vbNewLine & vbNewLine & "Press No To Cancel", vbYesNo + vbQuestion + vbSystemModal, "WhatsApp DDos") = vbYes Then
 
